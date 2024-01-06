@@ -1,0 +1,74 @@
+/* TODO 1 */
+.todo-1-container {
+    display: flex; /* TODO 1.1.1 */
+    /* TODO 1.1.2 */
+    /* Answer: Setting flex direction to row arranges the child elements horizontally in a row, while setting it to column arranges them vertically in a column. */
+    flex-direction: row; /* Default */
+    /* flex-direction: column; */
+    /* TODO 1.1.3 */
+    /* Answer: Enabling flex-wrap allows the flex items to wrap onto multiple lines if there's not enough space in the container. */
+    /* flex-wrap: wrap; */
+    gap: 10px; /* TODO 1.1.4 */
+}
+
+/* TODO 2 */
+.todo-2-container{
+    display: flex; /* TODO 1.2.1 */
+    flex-direction: row; /* TODO 1.2.1 */
+    /* TODO 1.2.2 */
+    justify-content: start; /* Default */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* TODO 1.2.3 */
+    align-items: start; /* Default */
+    /* align-items: end; */
+    /* align-items: center; */
+    /* TODO 1.2.4 */
+    /* flex-direction: column; */
+    /* justify-content: ...; */
+    /* align-items: ...; */
+}
+
+/* TODO 3 */
+.todo-3-container{
+    display: flex; /* Todo 1.3.1 */
+    align-items: center; /* Todo 1.3.1 */
+}
+
+/* Select the red box */
+.todo-3-container .red{
+    align-self: start; /* Todo 1.3.2 */
+    /* Answer: The align-self property allows individual flex items to override the align-items property for their individual alignment along the cross-axis. */
+}
+
+/* Select the green box */
+.todo-3-container .green{
+    flex-grow: 1; /* Todo 1.3.3 */
+}
+
+/* Select the blue box */
+.todo-3-container .blue{
+    flex-grow: 2; /* Todo 1.3.4 */
+    /* Answer: The flex-grow property defines the ability for a flex item to grow if necessary. Higher values will make it grow more relative to other items. */
+}
+
+/* TODO 4 */
+.todo-4-container{
+    display: flex; /* TODO 4 */
+}
+
+/* Select the red box */
+.todo-4-container .red{
+    margin-left: auto; /* TODO 4 */
+}
+
+/* Select the green box */
+.todo-4-container .green{
+    margin-right: auto; /* TODO 4 */
+}
+
+/* Select the blue box */
+.todo-4-container .blue{
+    order: 1; /* TODO 4 */
+    /* Answer: The order property specifies the order in which a flex item appears inside its container. */
+}
